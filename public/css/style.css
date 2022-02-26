@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar{
+    background:#FFDE59 ;
+    height: 9vh;
+    font-family: 'Outfit', sans-serif;
+	box-shadow: 0 4px 30px rgba(0,0,0,1);
+  position: sticky;
+}
+#bton{
+	background: rgb(41, 40, 21);
+}
+@media (max-width: 992px) { 
+    .navbar {
+         /* display: flex;
+         align-items: center;
+         align-content: center; */
+         height: 8vh;
+		 z-index: 99;
+    }
+    .navbar ul{
+        background: #FFDE59;
+        opacity: 0.77;
+        border-radius: 2%;
+		z-index: 99;
+    }
+ 
+ }
+@media (max-width: 430px) { 
+    .navbar {
+         /* display: flex;
+         align-items: center;
+         align-content: center; */
+         height: 10vh;
+		 z-index: 99;
+    }
+    .navbar ul{
+        background: #FFDE59;
+        opacity: 0.77;
+        border-radius: 2%;
+		z-index: 99;
+    }
+ 
+ }
+@media (max-width: 375px) { 
+    .navbar {
+         /* display: flex;
+         align-items: center;
+         align-content: center; */
+         height: 13vh;
+		 z-index: 99;
+    }
+    .navbar ul{
+        background: #FFDE59;
+        opacity: 0.77;
+        border-radius: 2%;
+		z-index: 99;
+    }
+ 
+ }
+#video{
+
+    background: #000;
+}
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+#vision{
+    background: #000;
+    border-radius:2em;
+    color: aliceblue;
+}
+#vision p{
+    font-size: larger;
+}
+#Goal{
+    background: #000;
+    border-radius:2em; 
+    color: aliceblue;
+}
+#Goal p{
+    font-size: larger;
+}
+
+#about p{
+    font-size: larger;
+}
+#about{
+    height: 2px;
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 600px) { 
+    #about{
+       height: 400px;
+    }
+ }
+
+@media (max-width: 4700px) { 
+    #about{
+       height: 500px;
+    }
+ }
+@media (max-width: 768px) { 
+    #vision{
+       margin-bottom: 12px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) { 
+    .navbar { */
+         /* display: flex;
+         align-items: center;
+         align-content: center; */
+         /* height: 13vh;
+    }
+    .navbar ul{
+        background: #FFDE59;
+        opacity: 0.36;
+        border-radius: 2%;
+    }
+ 
+ } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+}
+footer p{
+	margin-bottom: 0;
+	overflow: hidden;
+    background: #FFDE59;
+
+}
+.vl {
+    border-left: 2px solid white;
+    height: 50px;
+}
+
+#map{
+    width:600px;
+    height:450px ;
+    border-radius: 2rem;
+}
+@media (max-width: 674px) { 
+    #map{
+       height: 300px;
+       width: 410px;
+    }
+ }
+@media (max-width: 500px) { 
+    #map{
+       height: 300px;
+       width: 310px;
+    }
+    #phonenumber{
+        width: 200px;
+    }
+ }
+@media (max-width: 810px) { 
+    #map{
+       height: 300px;
+       width: 310px;
+    }
+  
+ }
+@media (max-width: 472px) { 
+    
+    #phonenumber{
+        width: 400px;
+        margin-right: 0px;
+    }
+ }
